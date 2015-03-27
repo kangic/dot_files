@@ -49,6 +49,10 @@ plugins=(git)
 
 # User configuration
 
+# move to favorite directory
+alias cdwork="cd ~/works"
+alias cdgith="cd ~/works/github"
+
 # tmux
 alias tmux="tmux -2"
 alias ta="tmux attach -t"

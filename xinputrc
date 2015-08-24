@@ -1,0 +1,7 @@
+# im-config(8) generated on Thu, 26 Mar 2015 00:16:44 +0900
+run_im uim
+# im-config signiture: 10027765dcab9e2cca5b89616a642c14  -
+
+if [ -s ~/.Xmodmap ]; then
+  xmodmap ~/.Xmodmap
+fi

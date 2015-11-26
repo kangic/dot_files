@@ -102,4 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export AND_NDK_PATH=/home/raymondk/dev_tools/android-ndk-r10e
+export PATH="$PATH:$HOME/.rvm/bin:$AND_NDK_PATH" # Add RVM to PATH for scripting
+

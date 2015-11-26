@@ -2,10 +2,13 @@
 
 ## Installation
 
+* install oh-my-zsh
+> curl -L http://install.ohmyz.sh | sh
+
 * clone this repo
 > git clone git://github.com/kangic/dot_files.git<br/>
-> ln -s ./dot_vimrc/zshrc ~/.zshrc<br/>
-> ln -s ./dot_vimrc/tmux.conf ~/.tmux.conf
+> ln -s ./dot_files/zshrc ~/.zshrc<br/>
+> ln -s ./dot_files/tmux.conf ~/.tmux.conf
 
 ## zsh settings
 

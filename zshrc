@@ -102,6 +102,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+<<<<<<< HEAD
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 [ -s "/home/raymondk/.scm_breeze/scm_breeze.sh" ] && source "/home/raymondk/.scm_breeze/scm_breeze.sh"
+=======
+export AND_NDK_PATH=/home/raymondk/dev_tools/android-ndk-r10e
+export PATH="$PATH:$HOME/.rvm/bin:$AND_NDK_PATH" # Add RVM to PATH for scripting
+
+>>>>>>> 81d441b258bc2c29fca77c50b8693e0f06f5adbb

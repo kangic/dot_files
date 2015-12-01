@@ -105,5 +105,6 @@ source $ZSH/oh-my-zsh.sh
 [ -s "/home/raymondk/.scm_breeze/scm_breeze.sh" ] && source "/home/raymondk/.scm_breeze/scm_breeze.sh"
 
 export AND_NDK_PATH=/home/raymondk/dev_tools/android-ndk-r10e
-export PATH="$PATH:$HOME/.rvm/bin:$AND_NDK_PATH" # Add RVM to PATH for scripting
+export SCALA_PATH=/home/raymondk/dev_tools/scala-2.10.4
+export PATH="$PATH:$HOME/.rvm/bin:$AND_NDK_PATH:$SCALA_PATH/bin" # Add RVM to PATH for scripting
 

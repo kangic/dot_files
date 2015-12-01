@@ -10,7 +10,7 @@
     background_type = transparent
     background_image = None
     show_titlebar = False
-    font = 나눔고딕코딩 11
+    font = DejaVu Sans Mono for Powerline 10
 [layouts]
   [[default]]
     [[[child1]]]

@@ -6,10 +6,9 @@
 [profiles]
   [[default]]
     use_system_font = False
+    font = Dejavu Sans Mono for Powerline 10
     background_image = None
     show_titlebar = False
-#font = Sauce Code Powerline Regular 10
-    font = Dejavu Sans Mono for Powerline 10
 [layouts]
   [[default]]
     [[[child1]]]

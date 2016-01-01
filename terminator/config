@@ -9,10 +9,7 @@
     font = Dejavu Sans Mono for Powerline 10
     background_image = None
     show_titlebar = False
-<<<<<<< HEAD
-=======
     font = DejaVu Sans Mono for Powerline 10
->>>>>>> 7e2a44923e61e38ee7fabd7f754930c8f837570c
 [layouts]
   [[default]]
     [[[child1]]]

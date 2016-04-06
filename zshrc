@@ -5,7 +5,11 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerline"
+#ZSH_THEME="agnoster"
+
+# powerline settings
+POWERLINE_HIDE_HOST_NAME="true"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -47,6 +51,8 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+source $ZSH/oh-my-zsh.sh
+
 # User configuration
 
 # move to favorite directory
@@ -72,10 +78,13 @@ alias gd="git diff"
 alias ga="git add"
 alias gp="git push"
 
+# bash mode
+bindkey -v
+export KEYTIMEOUT=1
+
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/go/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
-source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -104,8 +113,13 @@ source $ZSH/oh-my-zsh.sh
 
 [ -s "/home/raymondk/.scm_breeze/scm_breeze.sh" ] && source "/home/raymondk/.scm_breeze/scm_breeze.sh"
 
-export AND_NDK_PATH=/home/raymondk/dev_tools/android-ndk-r10e
-export AND_SDK_PATH=/home/raymondk/dev_tools/android-sdk-linux
+### for my home
+#export AND_NDK_PATH=/home/raymondk/dev_tools/android-ndk-r10e
+#export AND_SDK_PATH=/home/raymondk/dev_tools/android-sdk-linux
+### for my company
+export AND_NDK_PATH=/home/raymondk/Android/android-ndk-r11c
+export AND_SDK_PATH=/home/raymondk/Android/Sdk
 export SCALA_PATH=/home/raymondk/dev_tools/scala-2.10.4
-export PATH="$PATH:$HOME/.rvm/bin:$AND_NDK_PATH:$AND_SDK_PATH/platform-tools:$SCALA_PATH/bin" # Add RVM to PATH for scripting
+export BIN_PATH=/home/raymondk/bin
+export PATH="$PATH:$HOME/.rvm/bin:$BIN_PATH:$AND_NDK_PATH:$AND_SDK_PATH/platform-tools:$SCALA_PATH/bin" # Add RVM to PATH for scripting
 

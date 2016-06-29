@@ -122,4 +122,3 @@ export AND_SDK_PATH=/home/raymondk/Android/Sdk
 export SCALA_PATH=/home/raymondk/dev_tools/scala-2.10.4
 export BIN_PATH=/home/raymondk/bin
 export PATH="$PATH:$HOME/.rvm/bin:$BIN_PATH:$AND_NDK_PATH:$AND_SDK_PATH/platform-tools:$SCALA_PATH/bin" # Add RVM to PATH for scripting
-

@@ -73,10 +73,14 @@ alias et="vim ~/.tmux.conf"
 alias ez="vim ~/.zshrc"
 
 # git commands
-alias gs="git status"
-alias gd="git diff"
-alias ga="git add"
-alias gp="git push"
+#alias gs="git status"
+#alias gd="git diff"
+#alias ga="git add"
+#alias gp="git push"
+
+# vi,vim to nvim
+alias vim="nvim"
+alias vi="nvim"
 
 # bash mode
 bindkey -v

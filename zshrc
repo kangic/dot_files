@@ -68,22 +68,16 @@ alias tls="tmux ls"
 alias tkill="tmux kill-session -t"
 
 # editing some configs
-alias ev="vim ~/.vimrc"
+alias ev="vim ~/.config/nvim/init.vim"
 alias et="vim ~/.tmux.conf"
 alias ez="vim ~/.zshrc"
-
-# git commands
-#alias gs="git status"
-#alias gd="git diff"
-#alias ga="git add"
-#alias gp="git push"
 
 # vi,vim to nvim
 alias vim="nvim"
 alias vi="nvim"
 
 # shell mode
-bindkey -e
+bindkey -v
 export KEYTIMEOUT=1
 
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/go/bin:$PATH

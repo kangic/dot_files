@@ -77,7 +77,7 @@ alias vim="nvim"
 alias vi="nvim"
 
 # shell mode
-bindkey -v
+bindkey -e
 export KEYTIMEOUT=1
 
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/go/bin:$PATH
@@ -111,14 +111,9 @@ export PATH=$HOME/bin:/usr/local/bin:/usr/local/go/bin:$PATH
 
 [ -s "/home/raymondk/.scm_breeze/scm_breeze.sh" ] && source "/home/raymondk/.scm_breeze/scm_breeze.sh"
 
-### for my home
-#export AND_NDK_PATH=/home/raymondk/dev_tools/android-ndk-r10e
-#export AND_SDK_PATH=/home/raymondk/dev_tools/android-sdk-linux
-### for my company
-export AND_NDK_PATH=/home/raymondk/Android/android-ndk-r11c
-export AND_SDK_PATH=/home/raymondk/Android/Sdk
 export SCALA_PATH=/home/raymondk/dev_tools/scala-2.10.4
 export BIN_PATH=/home/raymondk/bin
-export PATH="$PATH:$HOME/.rvm/bin:$BIN_PATH:$AND_NDK_PATH:$AND_SDK_PATH/platform-tools:$SCALA_PATH/bin" # Add RVM to PATH for scripting
+export GEM_HOME="$HOME/.gems"
+export PATH="$PATH:$HOME/.rvm/bin:$BIN_PATH:$GEM_HOME/bin"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

@@ -111,7 +111,7 @@ export PATH=$HOME/bin:/usr/local/bin:/usr/local/go/bin:$PATH
 
 [ -s "/home/raymondk/.scm_breeze/scm_breeze.sh" ] && source "/home/raymondk/.scm_breeze/scm_breeze.sh"
 
-export FFMPEG_BIN_PATH=/home/raymondk/tools/ffmpeg-static
+export FFMPEG_BIN_PATH=/home/raymondk/bin/ffmpeg-static
 export SCALA_PATH=/home/raymondk/dev_tools/scala-2.10.4
 export BIN_PATH=/home/raymondk/bin
 export GEM_HOME="$HOME/.gems"

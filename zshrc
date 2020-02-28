@@ -6,7 +6,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="powerline"
-ZSH_THEME="agnoster"
+ZSH_THEME="refined"
 
 # powerline settings
 POWERLINE_HIDE_HOST_NAME="true"
@@ -56,20 +56,10 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # move to favorite directory
-alias cdwork="cd ~/works"
-alias cdgith="cd ~/works/github"
-alias cdnotes="cd ~/Dropbox/notes"
-
-# tmux
-alias tmux="tmux -2"
-alias ta="tmux attach -t"
-alias tnew="tmux new -s"
-alias tls="tmux ls"
-alias tkill="tmux kill-session -t"
+alias cdw="cd ~/workspace"
 
 # editing some configs
 alias ev="vim ~/.config/nvim/init.vim"
-alias et="vim ~/.tmux.conf"
 alias ez="vim ~/.zshrc"
 
 # vi,vim to nvim
@@ -77,7 +67,7 @@ alias vim="nvim"
 alias vi="nvim"
 
 # shell mode
-bindkey -e
+bindkey -v
 export KEYTIMEOUT=1
 
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/go/bin:$PATH

@@ -159,3 +159,8 @@ exec --no-startup-id feh --bg-fill ~/Pictures/sixairplanesx2560x1080.jpg
 bindsym $mod+plus exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym $mod+minus exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym $mod+0 exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+# SET GAPS
+for_window [class="^.*"] border pixel 1
+gaps inner 10
+gaps outer 20
